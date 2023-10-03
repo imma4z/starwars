@@ -1,0 +1,58 @@
+.App {
+  background: url("./assets//background.gif");
+  height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  .header { 
+    position: relative;
+    top:10px;
+    text-align: center;
+    img {
+      height: 100px;
+      width: auto;
+    }
+    p{
+      font-size: 30px;
+      color: goldenrod;
+      padding: 0;
+      margin: 10px 0;
+    }
+  }
+  .loading{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+  }
+  .ships-container{
+    align-items: center;
+    .thumbnail{
+      & > img {
+        border: 1px solid #ccc;
+        margin-right: 15px;
+        height: 80px;
+        background: #e2b101;
+        width: 80px;
+        border-radius: 10px;
+        object-fit: contain;
+      }
+    }
+    .award {
+      img{
+        position: relative;
+        top: -6px;
+        left: 10px;
+        height: 35px;
+        border: 1px solid goldenrod;
+        border-radius: 20px;
+        transition: transform 0.5s ease-in-out;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+      
+    }
+  }
+ 
+}
+
