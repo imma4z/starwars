@@ -9,7 +9,7 @@ function Ships() {
     useEffect(() => {
         setTimeout( () => {
             getShipsData();
-        },3000)
+        },2000)
     }, [])
 
 
