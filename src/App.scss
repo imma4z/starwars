@@ -27,13 +27,13 @@
     align-items: center;
     .thumbnail{
       & > img {
-        float: left;
         border: 1px solid #ccc;
         margin-right: 15px;
         height: 80px;
         background: #e2b101;
         width: 80px;
         border-radius: 10px;
+        object-fit: contain;
       }
     }
     .award {
@@ -55,4 +55,3 @@
   }
  
 }
-
